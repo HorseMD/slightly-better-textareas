@@ -1,0 +1,28 @@
+.textarea_wrapper {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.textarea_wrapper > * {
+    padding: 5px;
+    margin: 0;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.line_numbers span {
+    display: block;
+}
+
+.line_numbers {
+    float: left;
+    background: grey;
+    text-align: right;
+    border-top: 5px solid grey;
+    border-bottom: 5px solid grey;
+}
+
+textarea {
+    width: 90%;
+    border: 5px solid #d3d3d3;
+}

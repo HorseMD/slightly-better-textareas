@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Slightly Better Textareas</title>
+        <meta charset="utf-8">
+
+        <link href="http://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">        
+        <link href="style/style.css" rel="stylesheet">
+
+        <script src="js/textareas.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Slightly Better Textareas</h1>
+        </header>
+
+        <main>
+            <div class="textarea_wrapper">
+                <div class="line_numbers"></div>
+                <textarea id="user_input" data-betterta="enabled" rows="20" placeholder="Paste/Drag your text here."></textarea>
+            </div>
+
+            <h2>TODO:</h2>
+            <ul>
+                <li>update number of lines when textarea size changes
+                    <ul>
+                        <li>probably add own event as resize doesn't seem to work</li>
+                        <li>and then hook into that</li>
+                    </ul>
+                </li>
+                <li>select/highlight single or multiple lines</li>
+                <li>data-fontsize</li>
+                <li>inject wrapper and line_numbers divs around textareas with data-betterta="enabled" attributes.</li>
+            </ul>
+        </main>
+    </body>
+</html>
